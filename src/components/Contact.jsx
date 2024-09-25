@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import contact from '/img/contact.png';
-import './style.css';
+import './Style.css';
 
 const Contact = () => {
   return (
