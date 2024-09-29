@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Card from "./ui/Card"
-import './style.css'
+import './Style.css'
+import { Link } from "react-router-dom"
 
 const About = () => {
   return (
