@@ -25,13 +25,13 @@ const Navbar = () => {
     const visibilityClass = showMenu ? 'animate-moveLeft' : 'animate-moveRight';
 
     return (
-        <div className='flex justify-between items-center fixed w-full h-[14vh] z-20 lg:px-12 px-6 bg-white'>
+        <div className='flex justify-between items-center fixed w-full h-[11vh] z-20 lg:px-12 px-6 bg-white'>
             <div className='flex items-center justify-center gap-2'>
                 <img src={logo} alt="Logo" className='lg:w-[50px] w-[40px] h-auto'/>
                 <h1 className='font-poppins lg:text-[21px] text-[19px]'>TalkCast</h1>
             </div>
             <div className={`${ulClass} ${visibilityClass}`}>
-                <a href="" className='hover:text-yellow transition-all duration-300'>Home</a>
+                <a href="/" className='hover:text-yellow transition-all duration-300'>Home</a>
                 <a href="" className='hover:text-yellow transition-all duration-300'>About Us</a>
                 <a href="" className='hover:text-yellow transition-all duration-300'>Podcast</a>
                 <a href="" className='hover:text-yellow transition-all duration-300'>Music</a>

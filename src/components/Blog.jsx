@@ -4,7 +4,7 @@ import blog3 from '/img/blog3.png';
 
 const Blog = () => {
   return (
-    <div className='bg-pink flex lg:flex-col flex-col-reverse w-full lg:h-[120vh] h-auto lg:pb-0 pb-24'>
+    <div className='bg-pink flex lg:flex-col flex-col-reverse w-full lg:h-[105vh] h-auto lg:pb-0 pb-24'>
         <div className='flex lg:flex-row flex-col lg:justify-around lg:items-end justify-center items-center lg:px-0 px-8 lg:gap-0 gap-3 lg:pt-0 pt-10'>
             <div className='lg:text-start text-center'>
                 <p className='font-poppins'>BLOG</p>
@@ -16,9 +16,9 @@ const Blog = () => {
             </div>
         </div>
         <div className='flex lg:flex-row flex-col justify-center items-center gap-6 mt-12'>
-            <img src={blog1} alt="" className='lg:w-[410px] h-auto w-[300px]'/>
-            <img src={blog2} alt="" className='w-[300px] h-auto'/>
-            <img src={blog3} alt="" className='w-[300px] h-auto'/>
+            <img src={blog1} alt="" className='lg:w-[470px] h-auto w-[300px]'/>
+            <img src={blog2} alt="" className='lg:w-[340px] w-[300px] h-auto'/>
+            <img src={blog3} alt="" className='lg:w-[340px] w-[300px] h-auto'/>
         </div>
         <div className='mt-6 lg:ml-36 ml-0 lg:text-start text-center lg:px-0 px-8'>
             <h1 className='font-poppins lg:text-[24px] text-[22px]'>How to make money podcasting.</h1>

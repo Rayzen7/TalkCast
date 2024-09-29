@@ -52,7 +52,7 @@ export default {
           scroll: 'scroll infinite 40s linear',
       },
       backgroundImage: {
-        'pink': 'linear-gradient(175deg, rgba(255,254,251,1) 0%, rgb(255, 222, 247) 100%)',
+        'pink': 'linear-gradient(175deg, rgba(255,254,251,1) 0%, rgb(250, 251, 254) 100%)',
         'blackGray': 'linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,102,102,1) 100%)',
       },
     },

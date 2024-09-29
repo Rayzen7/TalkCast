@@ -1,16 +1,18 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../views/Home";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from '../views/Home';
+import About from '../views/About';
+import ScrollToTop from '../components/ui/ScrollToTop'
 
-const Router = () => {
+const App = () => {
   return (
-    <div>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-            </Routes>
-        </BrowserRouter>
-    </div>
-  )
-}
+    <BrowserRouter>
+      <ScrollToTop /> 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default Router
+export default App;

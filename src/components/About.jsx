@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import Card from "./ui/Card"
+import Card from "./ui/Card";
+import { Link } from "react-router-dom";
 import './style.css'
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
         <h1 className="font-poppins lg:text-[22px] text-[16px] lg:w-[500px] w-full">Our vision is to learn, work, build. Bringing your digital business dreams come true with professionalism.</h1>
         <div className="flex flex-col gap-12">
           <h1 className="font-poppins lg:text-[22px] text-[16px lg:w-[500px] w-full">With passion we created this Code, Design and Concept. We created this website to help your brand stand out. Don't worry about things, just leave it to us!</h1>
-          <a href=""><button className="p-3 lg:h-[130px] lg:w-[130px] h-[100px] w-[100px] lg:text-[20px] text-[15px] font-poppins rounded-full bg-pinkAbout cursor-pointer hover:scale-90 hover:opacity-90 transition-all ease-in-out duration-300">About Us</button></a>
+          <Link to='/about'><button className="p-3 lg:h-[130px] lg:w-[130px] h-[100px] w-[100px] lg:text-[20px] text-[15px] font-poppins rounded-full bg-pinkAbout cursor-pointer hover:scale-90 hover:opacity-90 transition-all ease-in-out duration-300">About Us</button></Link>
         </div>
       </div>
     </div>
