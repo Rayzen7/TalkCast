@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a href="" className='hover:text-yellow transition-all duration-300'>Music</a>
                 <a href="" className='hover:text-yellow transition-all duration-300'>Advertise</a>
             </div>
-            <div className={`flex items-center justify-center gap-2 lg:gap-9 lg:relative lg:bottom-0 bottom-[-440%] absolute right-0 ${visibilityClass}`}>
+            <div className={`flex items-center justify-center gap-2 lg:gap-9 lg:relative lg:bottom-0 bottom-[-600%] absolute right-0 ${visibilityClass}`}>
                 <div className='relative'>
                     <div className='flex items-center lg:mt-0 mt-2 cursor-pointer' onClick={toggleDropdown}>
                         <img src={selectedCountry === 'IDN' ? idn : usa} alt="Country" className='lg:w-[50px] w-[35px] h-auto'/>
