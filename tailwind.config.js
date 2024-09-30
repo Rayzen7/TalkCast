@@ -13,6 +13,7 @@ export default {
         'pinkAbout' : '#FFDCCD',
         'BlackYellow' : '#16130A',
         'grayIcon' : '#2C2C2C',
+        'blue' : '#07005D',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],

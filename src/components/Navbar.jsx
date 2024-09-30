@@ -2,6 +2,7 @@ import logo from '/img/icon.png';
 import idn from '/img/idn.png';
 import usa from '/img/mly.png';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -54,7 +55,9 @@ const Navbar = () => {
                         </div>
                     )}
                 </div>
-                <a href=""><button className='bg-yellow font-poppins lg:text-[16px] text-[14px] px-5 lg:px-7 py-2 rounded-full lg:mr-0 mr-4'>Logout</button></a>
+                <Link to='/login'>
+                    <button className='bg-yellow font-poppins lg:text-[16px] text-[14px] px-5 lg:px-7 py-2 rounded-full lg:mr-0 mr-4 hover:scale-90 transition-all duration-300'>Logout</button>
+                </Link>
             </div>
             <i className="bx bx-list-ul lg:hidden block text-[24px] cursor-pointer z-40" onClick={toggleMenu}></i>
         </div>

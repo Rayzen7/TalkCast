@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../views/Home';
 import About from '../views/About';
 import ScrollToTop from '../components/ui/ScrollToTop'
+import Form from '../components/login/Form';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path='/login' element={<Form/>}/>
       </Routes>
     </BrowserRouter>
   );
