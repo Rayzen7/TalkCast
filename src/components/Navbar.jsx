@@ -32,7 +32,7 @@ const Navbar = () => {
                 <h1 className='font-poppins lg:text-[21px] text-[19px]'>TalkCast</h1>
             </div>
             <div className={`${ulClass} ${visibilityClass}`}>
-                <a href="#" className='hover:text-yellow transition-all duration-300'>Home</a>
+                <a href="/" className='hover:text-yellow transition-all duration-300'>Home</a>
                 <a href="#about" className='hover:text-yellow transition-all duration-300'>About Us</a>
                 <a href="#podcast" className='hover:text-yellow transition-all duration-300'>Podcast</a>
                 <a href="#music" className='hover:text-yellow transition-all duration-300'>Music</a>
