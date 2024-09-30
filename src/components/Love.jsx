@@ -4,7 +4,7 @@ import loveImg from "/img/love1.png";
 
 const Love = () => {
   return (
-    <div className="mt-20 w-full lg:h-[100vh] h-auto lg:pb-0 pb-20">
+    <div className="mt-20 w-full lg:h-[100vh] h-auto lg:pb-0 pb-20" id="music">
       <div className="flex lg:flex-row flex-col justify-center items-center lg:gap-20 gap-10">
         <div
           className="w-[300px] h-[415px] flex flex-col justify-between items-center rounded-xl"

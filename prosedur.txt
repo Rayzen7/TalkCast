@@ -1,0 +1,8 @@
+1. Sebelum run project ini jangan lupa untuk install node_modules dengan perintah "npm install"
+2. Ketik "npm run dev" untuk run project
+3. Untuk akun user adalah :
+    - Email : test@gmail.com
+    - Password : 123
+4. Link website : https://talk-cast-user.vercel.app/
+
+Enjoyy!!

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const About = () => {
   return (
-    <div className="h-auto w-full lg:mt-28 mt-12">
+    <div className="h-auto w-full lg:mt-28 mt-12" id="about">
       <div className="flex lg:flex-row flex-col justify-around items-center lg:gap-36 gap-16">
         <div className="lg:text-start text-center lg:px-0 px-8">
           <p className="font-poppins1 uppercase text-[15px]">our network</p>

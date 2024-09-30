@@ -3,7 +3,7 @@ import advertising from '/img/advertising.png';
 
 const Advertising = () => {
   return (
-    <div className='flex lg:flex-row flex-col-reverse lg:justify-between justify-center items-center bg-blackGray w-full h-[80vh]'>
+    <div className='flex lg:flex-row flex-col-reverse lg:justify-between justify-center items-center bg-blackGray w-full h-[80vh]' id='podcast'>
         <div className='text-white lg:pl-20 pl-0 lg:text-start text-center lg:pb-0 pb-36 lg:pt-0 pt-9'>
             <p className='uppercase lg:text-[22px] text-[18px]'>advertising</p>
             <h1 className='lg:text-[32px] text-[20px] font-poppins lg:w-[500px] w-full lg:px-0 px-6'>Podcast advertising that delivers results to shout about</h1>

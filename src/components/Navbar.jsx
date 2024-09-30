@@ -32,11 +32,11 @@ const Navbar = () => {
                 <h1 className='font-poppins lg:text-[21px] text-[19px]'>TalkCast</h1>
             </div>
             <div className={`${ulClass} ${visibilityClass}`}>
-                <a href="/" className='hover:text-yellow transition-all duration-300'>Home</a>
-                <a href="" className='hover:text-yellow transition-all duration-300'>About Us</a>
-                <a href="" className='hover:text-yellow transition-all duration-300'>Podcast</a>
-                <a href="" className='hover:text-yellow transition-all duration-300'>Music</a>
-                <a href="" className='hover:text-yellow transition-all duration-300'>Advertise</a>
+                <a href="#" className='hover:text-yellow transition-all duration-300'>Home</a>
+                <a href="#about" className='hover:text-yellow transition-all duration-300'>About Us</a>
+                <a href="#podcast" className='hover:text-yellow transition-all duration-300'>Podcast</a>
+                <a href="#music" className='hover:text-yellow transition-all duration-300'>Music</a>
+                <a href="#advertise" className='hover:text-yellow transition-all duration-300'>Advertise</a>
             </div>
             <div className={`flex items-center justify-center gap-2 lg:gap-9 lg:relative lg:bottom-0 bottom-[-600%] absolute right-0 ${visibilityClass}`}>
                 <div className='relative'>
